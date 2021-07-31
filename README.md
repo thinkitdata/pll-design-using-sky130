@@ -5,4 +5,4 @@ using Open-Source PDKs by Google-Skywater
 # Table of Contents
 - [Introduction to RISC-V ISA](#introduction-to-risc-v-isa)
 
-#introduction-to-risc-v-isa
+# Introduction to RISC-V ISA
