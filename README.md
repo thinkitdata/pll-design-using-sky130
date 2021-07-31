@@ -21,9 +21,11 @@ What is meant by spectral purity of output??
 
 # Open Source Tools Used
 
+* [Google/SKywater 130nm pdks](https://github.com/google/skywater-pdk) (process design kit for usage with SkyWater Technology Foundry's 130nm node) <br>
 * [ngspice](http://ngspice.sourceforge.net/download.html) (simulation) <br>
 * [magic](http://opencircuitdesign.com/magic/) (layout design) <br>
-* [Google/SKywater 130nm pdks](https://github.com/google/skywater-pdk) (process design kit for usage with SkyWater Technology Foundry's 130nm node)
+* [caravel](https://github.com/efabless/caravel) (design preparation for tapeout)
+
 
 # Acknowledgements
 
