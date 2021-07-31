@@ -17,8 +17,8 @@ This begins with basic PLL concepts and then proceeds to cover all Integrated Ci
 
 # Acknowledgements
 
-* I thank Mr. Kunal Ghosh, co-founder [VSD](https://www.vlsisystemdesign.com/), for providing me the opportunity to  work on this wonderful project.
-* I thank [Google](https://github.com/google), [Skywater](https://www.skywatertechnology.com/) and [Efabless](https://efabless.com/) for bringing this wonderful [opportunity](https://www.skywatertechnology.com/press-releases/google-partners-with-skywater-and-efabless-to-enable-open-source-manufacturing-of-custom-asics/) to the world and making this project tapeout possible.
+* I thank Mr. Kunal Ghosh, co-founder [VSD](https://www.vlsisystemdesign.com/) and Lakshmi Sathidevi for their hard work in putting this excellent workshop together.
+* I thank [Google](https://github.com/google), [Skywater](https://www.skywatertechnology.com/), [ngspice](http://ngspice.sourceforge.net/) and [magic](http://opencircuitdesign.com/magic/) for providing the open source tools that make it possible for a project like this.
 
 # Contact
 
