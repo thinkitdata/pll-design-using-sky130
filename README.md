@@ -1,6 +1,5 @@
 # PLL-design-using-sky130
-VSD Workshop Phase-Locked Loop (PLL) IC Design
-using Open-Source PDKs by Google-Skywater
+This begins with basic PLL concepts and then progresses to cover all Integrated Circuit (IC) design steps (circuit design, simulation, layout, parasitics extraction, post layout simulation).  It concludes with making a tapeout using magic.
 
 # Table of Contents
 - [Introduction to RISC-V ISA](#introduction-to-risc-v-isa)
