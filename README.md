@@ -2,7 +2,7 @@
 This begins with basic PLL concepts and then proceeds to cover all Integrated Circuit (IC) design steps (circuit design, simulation, layout, parasitics extraction, post layout simulation).  It concludes with making a tapeout of the PLL circuit using magic.
 
 # Table of Contents
-- [Basic PLL Theory](#basic-pll--theory)
+- [Basic PLL Theory](#basic-pll-theory)
 - [Open Source Tools Used](#open-source-tools-used)
 - [Acknowlegements](#Acknowledgements)
 - [Contact](#Contact)
