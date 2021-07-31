@@ -2,12 +2,12 @@
 This begins with basic PLL concepts and then proceeds to cover all Integrated Circuit (IC) design steps (circuit design, simulation, layout, parasitics extraction, post layout simulation).  It concludes with making a tapeout of the PLL circuit using magic.
 
 # Table of Contents
-- [Introduction to RISC-V ISA](#introduction-to-risc-v-isa)
+- [Introduction to PLL](#introduction-to-pll)
 - [Open Source Tools Used](#open-source-tools-used)
 - [Acknowlegements](#Acknowledgements)
 - [Contact](#Contact)
 
-# Introduction to RISC-V ISA
+# Introduction to PLL
 
 # Open Source Tools Used
 
