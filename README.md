@@ -9,6 +9,14 @@ This begins with basic PLL concepts and then proceeds to cover all Integrated Ci
 
 # Basic PLL Theory
 
+<p><a href="https://commons.wikimedia.org/wiki/File:Phase_locked_loop.svg#/media/File:Phase_locked_loop.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Phase_locked_loop.svg/1200px-Phase_locked_loop.svg.png" alt="Phase locked loop.svg"></a><br>By &lt;a href="//commons.wikimedia.org/wiki/User_talk:Chetvorno" title="User talk:Chetvorno"&gt;Chetvorno&lt;/a&gt; - &lt;span class="int-own-work" lang="en"&gt;Own work&lt;/span&gt;, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en" title="Creative Commons Zero, Public Domain Dedication">CC0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=58259172">Link</a></p>
+
+Why is a Phase-Locked Loop Clock Multiplier IC needed?
+To get a precise clock signal without frequency or phase noise.
+
+Which are the circuits that are a minimum requirement for making a PLL?
+What is meant by spectral purity of output??
+
 # Open Source Tools Used
 
 * [ngspice](http://ngspice.sourceforge.net/download.html) (simulation) <br>
