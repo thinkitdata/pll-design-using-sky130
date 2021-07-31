@@ -10,7 +10,7 @@ This begins with basic PLL concepts and then proceeds to cover all Integrated Ci
 # Basic PLL Theory
 
 Basic components of a PLL
-<p><a href="https://commons.wikimedia.org/wiki/File:Phase_locked_loop.svg#/media/File:Phase_locked_loop.svg"><img height50% width==50% src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Phase_locked_loop.svg/1200px-Phase_locked_loop.svg.png" alt="Phase locked loop.svg"></a>
+<p><a href="https://commons.wikimedia.org/wiki/File:Phase_locked_loop.svg#/media/File:Phase_locked_loop.svg"><img height="50%" width="50%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Phase_locked_loop.svg/1200px-Phase_locked_loop.svg.png" alt="Phase locked loop.svg"></a>
   <br><i>Image courtesy wikipedia</i>
 
 Why is a Phase-Locked Loop Clock Multiplier IC needed?
