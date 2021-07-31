@@ -1,5 +1,5 @@
 # PLL-design-using-sky130
-This begins with basic PLL concepts and then progresses to cover all Integrated Circuit (IC) design steps (circuit design, simulation, layout, parasitics extraction, post layout simulation).  It concludes with making a tapeout using magic.
+This begins with basic PLL concepts and then proceeds to cover all Integrated Circuit (IC) design steps (circuit design, simulation, layout, parasitics extraction, post layout simulation).  It concludes with making a tapeout of the PLL circuit using magic.
 
 # Table of Contents
 - [Introduction to RISC-V ISA](#introduction-to-risc-v-isa)
