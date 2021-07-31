@@ -1,5 +1,5 @@
 # PLL-design-using-sky130
-This begins with basic PLL concepts and then proceeds to cover all Integrated Circuit (IC) design steps (circuit design, simulation, layout, parasitics extraction, post layout simulation).  It concludes with making a tapeout of the PLL circuit using magic.
+This repository will show how to take a basic PLL circuit through all Integrated Circuit (IC) design steps (circuit design, simulation, layout, parasitics extraction, post layout simulation) and then making a tapeout of the PLL circuit using using all open source tools.
 
 # Table of Contents
 - [Basic PLL Theory](#basic-pll-theory)
