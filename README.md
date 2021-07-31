@@ -22,6 +22,6 @@ This begins with basic PLL concepts and then proceeds to cover all Integrated Ci
 
 # Contact
 
-* Greg Phillips, (Author) - greg@thinkitdata.com
+* Greg Phillips (Author) - greg@thinkitdata.com
 * Lakshmi S, MS ECE - lakshmi.sathi96@gmail.com
 * Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalghosh@gmail.com
