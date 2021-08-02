@@ -44,9 +44,8 @@ startxwin is now called xinit and as such when you launch cygwin xinit is the co
 
 When attempting to run magic the first time you'll encounter the below error:
 
-reg@DESKTOP-I22BTM7 /cygdrive/d/magic
+greg@DESKTOP-I22BTM7 /cygdrive/d/magic
 $ usr/local/bin/magic
- 
 **_usr/local/bin/magic: line 43: /usr/local/lib/magic/tcl/tkcon.tcl: No such file or directory_**
 
 
