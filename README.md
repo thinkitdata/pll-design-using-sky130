@@ -35,8 +35,8 @@ What is meant by spectral purity of output??
 Running Magic on Windows requires the use of Cygwin.  The details of which are documented here: http://opencircuitdesign.com/cygwin/tcltk.html
 
 Part of the Cygwin installation and configuration is the requirement of installing Xwindows.  One problem you'll encounter is trying to install the startxwin package under X11
-![X11 prereqs](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/
- x11reqs.png)
+
+ ![X11 prereqs](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/X11reqs.png)
 
 startxwin is now called xinit and as such when you launch cygwin xinit is the comment you'll need to execute to launch the Xwindows server which is the prerequisite to launching magic.
 
