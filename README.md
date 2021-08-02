@@ -26,6 +26,38 @@ What is meant by spectral purity of output??
 * [ngspice](http://ngspice.sourceforge.net/download.html) (simulation) <br>
 * [magic](http://opencircuitdesign.com/magic/) (layout design) <br>
 * [caravel](https://github.com/efabless/caravel) (design preparation for tapeout)
+ 
+ Ngspice and an optional GUI is installed on Windows10 by following the instructions here: http://ngspice.sourceforge.net/download.html
+
+
+
+
+Running Magic on Windows requires the use of Cygwin.  The details of which are documented here: http://opencircuitdesign.com/cygwin/tcltk.html
+
+Part of the Cygwin installation and configuration is the requirement of installing Xwindows.  One problem you'll encounter is trying to install the startxwin package under X11
+
+
+startxwin is now called xinit and as such when you launch cygwin xinit is the comment you'll need to execute to launch the Xwindows server which is the prerequisite to launching magic.
+
+
+
+
+When attempting to run magic the first time you'll encounter the below error:
+
+reg@DESKTOP-I22BTM7 /cygdrive/d/magic
+$ usr/local/bin/magic
+usr/local/bin/magic: line 43: /usr/local/lib/magic/tcl/tkcon.tcl: No such file or directory
+
+This is because when using cygwin the use of / for meaning the root of the filesystem in scripts is interpreted differently than the actual root of the filesystem from the Windows perspective.  If you look at line 43 in the below you can see that we needed to edit for the actual root path to the file.
+
+
+
+Now magic launches via Cygwin in Xwindows as expected.
+
+
+
+![image](https://user-images.githubusercontent.com/8312541/127877636-ff70a2e3-b303-44d6-81cb-2be77c46b23f.png)
+
 
 
 # Acknowledgements
