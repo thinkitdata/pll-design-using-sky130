@@ -39,6 +39,8 @@ Part of the Cygwin installation and configuration is the requirement of installi
  ![X11 prereqs](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/X11reqs.png)
 
 startxwin is now called xinit and as such when you launch cygwin xinit is the comment you'll need to execute to launch the Xwindows server which is the prerequisite to launching magic.
+ 
+ ![Cygwin setup](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/cygwinSetup.png)
 
 
 
