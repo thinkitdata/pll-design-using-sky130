@@ -54,12 +54,7 @@ This is because when using cygwin the use of / for meaning the root of the files
 ![magic.sh edit](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/magicScriptEdit.png)
 
 Now magic launches via Cygwin in Xwindows as expected.
-
-
-
-![image](https://user-images.githubusercontent.com/8312541/127877636-ff70a2e3-b303-44d6-81cb-2be77c46b23f.png)
-
-
+![Cygwin X11](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/cygwinXwindows.png)
 
 # Acknowledgements
 
