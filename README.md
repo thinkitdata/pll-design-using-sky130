@@ -28,7 +28,7 @@ What is meant by spectral purity of output??
 * [caravel](https://github.com/efabless/caravel) (design preparation for tapeout)
  
  Ngspice and an optional GUI is installed on Windows10 by following the instructions here: http://ngspice.sourceforge.net/download.html
-![ngspice GUI](https://github.com/thinkitdata/pll-design-using-sky130/blob/master/images/ngspicdGUI.png)
+![ngspice GUI](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/ngspiceGUI.png)
 
 
 
