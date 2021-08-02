@@ -49,7 +49,9 @@ When attempting to run magic the first time you'll encounter the below error:
 
 reg@DESKTOP-I22BTM7 /cygdrive/d/magic
 $ usr/local/bin/magic
-<font color=red>usr/local/bin/magic: line 43: /usr/local/lib/magic/tcl/tkcon.tcl: No such file or directory</font>
+<span style="color:red">
+ usr/local/bin/magic: line 43: /usr/local/lib/magic/tcl/tkcon.tcl: No such file or directory
+ </span>
 
 This is because when using cygwin the use of / for meaning the root of the filesystem in scripts is interpreted differently than the actual root of the filesystem from the Windows perspective.  If you look at line 43 in the below you can see that we needed to edit for the actual root path to the file.
 
