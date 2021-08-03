@@ -97,8 +97,8 @@ Now magic launches via Cygwin in Xwindows as expected.
 1. Stan Gibilisco, Neil Sclater, Encyclopedia of Electronics 2nd Edition, 1990, pp. 637-638 ISSN 0-8306-3389-8
 2. Psul Horowitz, Winfield HIll, The Art of Electronics 3rd Edition, 2015, pp. 957 ISSN 978-0-521--80926-9
 3. Stan Gibilisco, Neil Sclater, Encyclopedia of Electronics 2nd Edition, 1990, pp. 529 - 530 ISSN 0-8306-3389-8
-4. Stan Gibilisco, Neil Sclater, Encyclopedia of Electronics 2nd Edition, 1990, pp. 613 ISSN 0-8306-3389-8
-5. Stan Gibilisco, Neil Sclater, Encyclopedia of Electronics 2nd Edition, 1990, pp. 401 ISSN 0-8306-3389-8
+4. Psul Horowitz, Winfield HIll, The Art of Electronics 3rd Edition, 2015, pp. 95999 ISSN 978-0-521--80926-9
+5. Stan GibPsul Horowitz, Winfield HIll, The Art of Electronics 3rd Edition, 2015, pp. 957 ISSN 978-0-521--80926-9ilisco, Neil Sclater, Encyclopedia of Electronics 2nd Edition, 1990, pp. 401 ISSN 0-8306-3389-8
 
 # Acknowledgements
 
