@@ -70,16 +70,16 @@ Now magic launches via Cygwin in Xwindows as expected.
  ![Phase Frequency Detector](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/PD_PreLayout.PNG)
  
  Charge Pump
- ![Phase Frequency Detector](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/CP_PreLayout.PNG)
+ ![Charge Pump](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/CP_PreLayout.PNG)
  
  Voltage Controlled Oscillator
- ![Phase Frequency Detector](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/VCO_PreLayout.PNG)
+ ![Voltage Controlled Oscillator](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/VCO_PreLayout.PNG)
  
  Frequency Divider
- ![Phase Frequency Detector](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/FD_PreLayout.PNG)
+ ![Frequency Divider](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/FD_PreLayout.PNG)
  
  Phase Lock Loop
- ![Phase Frequency Detector](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/PLL_PreLayout.PNG)
+ ![Phase Lock Loop](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/PLL_PreLayout.PNG)
  
 # Acknowledgements
 
