@@ -17,13 +17,10 @@ This repository will show how to take a basic PLL circuit through all Integrated
 <b>Basic components of a PLL</b>
 ![PLL](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/PLL.PNG)
 
-A phased-lock loop (PLL) is a circuit used to lock an oscillator in phase with an input signal.  A PLL can act as a demodulator to demodulate a carrier frequency, or it can be used to track a carrier or synchronizing signal whose frequency varies with respect to time.[1]
+A phased-lock loop (PLL) is a circuit used to lock an oscillator in phase with an input signal.  A PLL can act as a demodulator to demodulate a carrier frequency, or it can be used to track a carrier or synchronizing signal whose frequency varies with respect to time.  [1]
 
-Why is a Phase-Locked Loop Clock Multiplier IC needed?
-To get a precise clock signal without frequency or phase noise.
-
-Which are the circuits that are a minimum requirement for making a PLL?
-What is meant by spectral purity of output??
+The Phase Frequency Detector helps to compare the reference frequency signal(RefCLK) with Output frequency signal(FBCLK) to find out the differnce in the signal.  If the signal is leading then it is termed output up. When the signal is lagging it is termed output down..
+![PLL](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/PLL.PNG)
 
 # Open Source Tools Used and Setup
 
