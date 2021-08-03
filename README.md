@@ -6,7 +6,7 @@ This repository will show how to take a basic PLL circuit through all Integrated
 
 # Table of Contents
 - [Basic PLL Theory](#basic-pll-theory)
-- [Open Source Tools Used](#open-source-tools-used)
+- [Open Source Tools Used & Setup](#open-source-tools-used-&-setup)
 - [Acknowlegements](#Acknowledgements)
 - [Contact](#Contact)
 
@@ -22,7 +22,7 @@ To get a precise clock signal without frequency or phase noise.
 Which are the circuits that are a minimum requirement for making a PLL?
 What is meant by spectral purity of output??
 
-# Open Source Tools Used
+# Open Source Tools Used & Setup
 
 * [Google/SKywater 130nm pdks](https://github.com/google/skywater-pdk) (process design kit for usage with SkyWater Technology Foundry's 130nm node) <br>
 * [ngspice](http://ngspice.sourceforge.net/download.html) (simulation) <br>
