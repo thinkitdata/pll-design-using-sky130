@@ -84,7 +84,7 @@ Now magic launches via Cygwin in Xwindows as expected.
  ![Phase Lock Loop](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/PLL_PreLayout.PNG)
  
 # References
-1. Encyclopedia of Electronics pgs 637-638
+1. Stan Gibilisco, Neil Sclater, Encyclopedia of Electronics 2nd Edition, 1990, pp. 637-638 ISSN 0-8306-3389-8
 
 # Acknowledgements
 
