@@ -31,6 +31,10 @@ The **_Low Pass Filter_** is a combination of capacitance, inductance, and/or re
 The **_Voltage Controlled Oscillator (VCO)_** is an oscillator circuit that's frequency of oscillation is controlled by the input voltage.  [3]
 <br>![Voltage Crontolled Oscillator](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/VCO.PNG)
 
+The **_Frequency Divider_** is a circuit whose output frequency is some fraction of the input frequency.  All frequency dividers are digital circuits.  While frequency multiplication can be accomplished by means of simple nonlinear analog devices, frequency division requires counting devices.  Fractional components of a given frequency are sometimes called subharmonics; a wave does not naturally contain subharmonics.  [4]
+![Frequency Divider](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/FD.PNG)
+
+
 # Open Source Tools Used and Setup
 
 * [Google/SKywater 130nm pdks](https://github.com/google/skywater-pdk) (process design kit for usage with SkyWater Technology Foundry's 130nm node) <br>
@@ -93,6 +97,7 @@ Now magic launches via Cygwin in Xwindows as expected.
 1. Stan Gibilisco, Neil Sclater, Encyclopedia of Electronics 2nd Edition, 1990, pp. 637-638 ISSN 0-8306-3389-8
 2. Stan Gibilisco, Neil Sclater, Encyclopedia of Electronics 2nd Edition, 1990, pp. 529 - 530 ISSN 0-8306-3389-8
 3. Stan Gibilisco, Neil Sclater, Encyclopedia of Electronics 2nd Edition, 1990, pp. 613 ISSN 0-8306-3389-8
+4. Stan Gibilisco, Neil Sclater, Encyclopedia of Electronics 2nd Edition, 1990, pp. 401 ISSN 0-8306-3389-8
 
 # Acknowledgements
 
