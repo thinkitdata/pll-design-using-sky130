@@ -22,6 +22,9 @@ A **_phased-lock loop (PLL)_** is a circuit used to lock an oscillator in phase 
 The **_Phase Frequency Detector_** helps to compare the reference frequency signal(RefCLK) with Output frequency signal(FBCLK) to find out the differnce in the signal.  If the signal is leading then we say that it is output up. When the signal is lagging we say that it is output down..
 ![PFD](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/PFD.PNG)
 
+The **_Charge Pump_** converts the digital measure of phase/frequeny difference into an analog control signal to control the oscillator.  The wave form of charge pump is shown below.
+![Charge Pump](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/CP.PNG)
+
 # Open Source Tools Used and Setup
 
 * [Google/SKywater 130nm pdks](https://github.com/google/skywater-pdk) (process design kit for usage with SkyWater Technology Foundry's 130nm node) <br>
