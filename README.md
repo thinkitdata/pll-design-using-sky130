@@ -29,7 +29,7 @@ The **_Low Pass Filter_** is a combination of capacitance, inductance, and/or re
 ![Low Pass Filter](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/LPF.PNG)
 
 The **_Voltage Controlled Oscillator (VCO)_** is an oscillator circuit that's frequency of oscillation is controlled by the input voltage.  [4]
-<br>![Voltage Crontolled Oscillator](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/VCO.PNG)
+<br>![Voltage Crontolled Oscillator](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/VCO.jpg)
 
 The **_Frequency Divider_** is a circuit whose output frequency is some fraction of the input frequency.  All frequency dividers are digital circuits.  While frequency multiplication can be accomplished by means of simple nonlinear analog devices, frequency division requires counting devices.  Fractional components of a given frequency are sometimes called subharmonics; a wave does not naturally contain subharmonics.  [5]
 ![Frequency Divider](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/FD.PNG)
