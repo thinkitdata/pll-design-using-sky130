@@ -6,7 +6,8 @@ This repository will show how to take a basic PLL circuit through all Integrated
 
 # Table of Contents
 - [Basic PLL Theory](#basic-pll-theory)
-- [Open Source Tools Used & Setup](#open-source-tools-used-and-setup)
+- [Open Source Tools Used and Setup](#open-source-tools-used-and-setup)
+- [Simulations](#Simulations)
 - [Acknowlegements](#Acknowledgements)
 - [Contact](#Contact)
 
@@ -60,6 +61,10 @@ This is because when using cygwin the use of / for meaning the root of the files
 Now magic launches via Cygwin in Xwindows as expected.
 ![Cygwin X11](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/cygwinXwindows.png)
 
+# Simulations
+ 
+![PreLayout Simulation Commands](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/PreLayout_Sim_Cmds.png)
+ 
 # Acknowledgements
 
 * I thank Mr. Kunal Ghosh, co-founder [VSD](https://www.vlsisystemdesign.com/) and Lakshmi Sathidevi for their hard work in putting this excellent workshop together.
