@@ -96,7 +96,7 @@ Now magic launches via Cygwin in Xwindows as expected.
 
 # Acknowledgements
 
-* I thank Mr. Kunal Ghosh, co-founder [VSD](https://www.vlsisystemdesign.com/) and Lakshmi Sathidevi (([8x PLL Clock Multiplier IP Source code](https://github.com/lakshmi-sathi/avsdpll_1v8)) for their hard work in putting this excellent workshop together.
+* I thank Mr. Kunal Ghosh, co-founder [VSD](https://www.vlsisystemdesign.com/) and Lakshmi Sathidevi ([8x PLL Clock Multiplier IP Source code](https://github.com/lakshmi-sathi/avsdpll_1v8)) for their hard work in putting this excellent workshop together.
 * I thank [Google](https://github.com/google), [Skywater](https://www.skywatertechnology.com/), [ngspice](http://ngspice.sourceforge.net/), [magic](http://opencircuitdesign.com/magic/) and [efabless](https://efabless.com/) for providing the open source tools that make it possible for a project like this.
 
 # Contact
