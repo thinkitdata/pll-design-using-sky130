@@ -25,7 +25,7 @@ The **_Phase Frequency Detector_** helps to compare the reference frequency sign
 The **_Charge Pump_** converts the digital measure of phase/frequeny difference into an analog control signal to control the oscillator.
 ![Charge Pump](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/CP.PNG)
 
-The **_Low Pass Filter_** passes signals with frequency lower than the selected cutoff frequency. The PLL can't lock on the input frequency with out this.
+The **_Low Pass Filter_** is a combination of capacitance, inductance, and/or resistance, intended to produce high attenuation above a specified frequency and little to no attenuation below that frequency.  The frequency at which the transition occurs is called the cutoff frequency.  At the cutoff frequency, the attenuation is 3 decibels (DB) with respect to the minimum attenuation.  Below the cutoff frequency, the attenuation is less than 3dB.  Above the cutoff, the attenuation is more than 3 dB.  [2]
 ![Low Pass Filter](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/LPF.PNG)
 
 
@@ -89,6 +89,7 @@ Now magic launches via Cygwin in Xwindows as expected.
  
 # References
 1. Stan Gibilisco, Neil Sclater, Encyclopedia of Electronics 2nd Edition, 1990, pp. 637-638 ISSN 0-8306-3389-8
+2. Stan Gibilisco, Neil Sclater, Encyclopedia of Electronics 2nd Edition, 1990, pp. 529 - 530 ISSN 0-8306-3389-8
 
 # Acknowledgements
 
