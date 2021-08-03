@@ -25,6 +25,10 @@ The **_Phase Frequency Detector_** helps to compare the reference frequency sign
 The **_Charge Pump_** converts the digital measure of phase/frequeny difference into an analog control signal to control the oscillator.
 ![Charge Pump](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/CP.PNG)
 
+The **_Low Pass Filter_** passes signals with frequency lower than the selected cutoff frequency. The PLL can't lock on the input frequency with out this.
+![Low Pass Filter](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/LPF.PNG)
+
+
 # Open Source Tools Used and Setup
 
 * [Google/SKywater 130nm pdks](https://github.com/google/skywater-pdk) (process design kit for usage with SkyWater Technology Foundry's 130nm node) <br>
