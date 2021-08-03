@@ -28,7 +28,7 @@ The **_Charge Pump_** converts the digital measure of phase/frequeny difference 
 The **_Low Pass Filter_** is a combination of capacitance, inductance, and/or resistance, intended to produce high attenuation above a specified frequency and little to no attenuation below that frequency.  The frequency at which the transition occurs is called the cutoff frequency.  At the cutoff frequency, the attenuation is 3 decibels (dB) with respect to the minimum attenuation.  Below the cutoff frequency, the attenuation is less than 3 dB.  Above the cutoff, the attenuation is more than 3 dB.  [2]
 ![Low Pass Filter](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/LPF.PNG)
 
-The **_Voltage Controlled Oscillator (VCO)_** is an oscillator circuit that's frequency of oscillation is controlled by the input voltage.
+The **_Voltage Controlled Oscillator (VCO)_** is an oscillator circuit that's frequency of oscillation is controlled by the input voltage.  [3]
 ![Voltage Crontolled Oscillator](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/VCO.PNG)
 
 # Open Source Tools Used and Setup
@@ -92,10 +92,11 @@ Now magic launches via Cygwin in Xwindows as expected.
 # References
 1. Stan Gibilisco, Neil Sclater, Encyclopedia of Electronics 2nd Edition, 1990, pp. 637-638 ISSN 0-8306-3389-8
 2. Stan Gibilisco, Neil Sclater, Encyclopedia of Electronics 2nd Edition, 1990, pp. 529 - 530 ISSN 0-8306-3389-8
+3. Stan Gibilisco, Neil Sclater, Encyclopedia of Electronics 2nd Edition, 1990, pp. 613 ISSN 0-8306-3389-8
 
 # Acknowledgements
 
-* I thank Mr. Kunal Ghosh, co-founder [VSD](https://www.vlsisystemdesign.com/) and Lakshmi Sathidevi for their hard work in putting this excellent workshop together.
+* I thank Mr. Kunal Ghosh, co-founder [VSD](https://www.vlsisystemdesign.com/) and [Lakshmi Sathidevi](https://github.com/lakshmi-sathi/avsdpll_1v8) for their hard work in putting this excellent workshop together.
 * I thank [Google](https://github.com/google), [Skywater](https://www.skywatertechnology.com/), [ngspice](http://ngspice.sourceforge.net/), [magic](http://opencircuitdesign.com/magic/) and [efabless](https://efabless.com/) for providing the open source tools that make it possible for a project like this.
 
 # Contact
