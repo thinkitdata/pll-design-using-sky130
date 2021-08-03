@@ -29,7 +29,7 @@ The **_Low Pass Filter_** is a combination of capacitance, inductance, and/or re
 ![Low Pass Filter](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/LPF.PNG)
 
 The **_Voltage Controlled Oscillator (VCO)_** is an oscillator circuit that's frequency of oscillation is controlled by the input voltage.  [3]
-![Voltage Crontolled Oscillator](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/VCO.PNG)
+<br>![Voltage Crontolled Oscillator](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/VCO.PNG)
 
 # Open Source Tools Used and Setup
 
