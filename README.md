@@ -19,19 +19,19 @@ This repository will show how to take a basic PLL circuit through all Integrated
 
 A **_phased-lock loop (PLL)_** is a circuit used to lock an oscillator in phase with an input signal.  A PLL can act as a demodulator to demodulate a carrier frequency, or it can be used to track a carrier or synchronizing signal whose frequency varies with respect to time.  [1]
 
-The **_Phase Frequency Detector_** helps to compare the reference frequency signal(RefCLK) with Output frequency signal(FBCLK) to find out the differnce in the signal.  If the signal is leading then we say that it is output up. When the signal is lagging we say that it is output down..
+The **_Phase Frequency Detector_** helps to compare the reference frequency signal(RefCLK) with Output frequency signal(FBCLK) to find out the differnce in the signal.  In our case here we are using a type II phase detector which is to say it is sensitive only to the relative timing of edges between the signal and VCO input.  If the signal is leading then we say that it is output up. When the signal is lagging we say that it is output down.  [2]
 ![PFD](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/PFD.PNG)
 
 The **_Charge Pump_** converts the digital measure of phase/frequeny difference into an analog control signal to control the oscillator.
 ![Charge Pump](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/CP.PNG)
 
-The **_Low Pass Filter_** is a combination of capacitance, inductance, and/or resistance, intended to produce high attenuation above a specified frequency and little to no attenuation below that frequency.  The frequency at which the transition occurs is called the cutoff frequency.  At the cutoff frequency, the attenuation is 3 decibels (dB) with respect to the minimum attenuation.  Below the cutoff frequency, the attenuation is less than 3 dB.  Above the cutoff, the attenuation is more than 3 dB.  [2]
+The **_Low Pass Filter_** is a combination of capacitance, inductance, and/or resistance, intended to produce high attenuation above a specified frequency and little to no attenuation below that frequency.  The frequency at which the transition occurs is called the cutoff frequency.  At the cutoff frequency, the attenuation is 3 decibels (dB) with respect to the minimum attenuation.  Below the cutoff frequency, the attenuation is less than 3 dB.  Above the cutoff, the attenuation is more than 3 dB.  [3]
 ![Low Pass Filter](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/LPF.PNG)
 
-The **_Voltage Controlled Oscillator (VCO)_** is an oscillator circuit that's frequency of oscillation is controlled by the input voltage.  [3]
+The **_Voltage Controlled Oscillator (VCO)_** is an oscillator circuit that's frequency of oscillation is controlled by the input voltage.  [4]
 <br>![Voltage Crontolled Oscillator](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/VCO.PNG)
 
-The **_Frequency Divider_** is a circuit whose output frequency is some fraction of the input frequency.  All frequency dividers are digital circuits.  While frequency multiplication can be accomplished by means of simple nonlinear analog devices, frequency division requires counting devices.  Fractional components of a given frequency are sometimes called subharmonics; a wave does not naturally contain subharmonics.  [4]
+The **_Frequency Divider_** is a circuit whose output frequency is some fraction of the input frequency.  All frequency dividers are digital circuits.  While frequency multiplication can be accomplished by means of simple nonlinear analog devices, frequency division requires counting devices.  Fractional components of a given frequency are sometimes called subharmonics; a wave does not naturally contain subharmonics.  [5]
 ![Frequency Divider](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/FD.PNG)
 
 
@@ -95,9 +95,10 @@ Now magic launches via Cygwin in Xwindows as expected.
  
 # References
 1. Stan Gibilisco, Neil Sclater, Encyclopedia of Electronics 2nd Edition, 1990, pp. 637-638 ISSN 0-8306-3389-8
-2. Stan Gibilisco, Neil Sclater, Encyclopedia of Electronics 2nd Edition, 1990, pp. 529 - 530 ISSN 0-8306-3389-8
-3. Stan Gibilisco, Neil Sclater, Encyclopedia of Electronics 2nd Edition, 1990, pp. 613 ISSN 0-8306-3389-8
-4. Stan Gibilisco, Neil Sclater, Encyclopedia of Electronics 2nd Edition, 1990, pp. 401 ISSN 0-8306-3389-8
+2. Psul Horowitz, Winfield HIll, The Art of Electronics 3rd Edition, 2015, pp. 957 ISSN 978-0-521--80926-9
+3. Stan Gibilisco, Neil Sclater, Encyclopedia of Electronics 2nd Edition, 1990, pp. 529 - 530 ISSN 0-8306-3389-8
+4. Stan Gibilisco, Neil Sclater, Encyclopedia of Electronics 2nd Edition, 1990, pp. 613 ISSN 0-8306-3389-8
+5. Stan Gibilisco, Neil Sclater, Encyclopedia of Electronics 2nd Edition, 1990, pp. 401 ISSN 0-8306-3389-8
 
 # Acknowledgements
 
