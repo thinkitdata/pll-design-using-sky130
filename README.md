@@ -62,8 +62,24 @@ Now magic launches via Cygwin in Xwindows as expected.
 ![Cygwin X11](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/cygwinXwindows.png)
 
 # Simulations
- 
+
+ Here are the commands used to generate the prelayout simulations
 ![PreLayout Simulation Commands](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/PreLayout_Sim_Cmds.PNG)
+ 
+ Phase Frequency Detector
+ ![Phase Frequency Detector](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/PD_PreLayout.PNG)
+ 
+ Charge Pump
+ ![Phase Frequency Detector](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/CP_PreLayout.PNG)
+ 
+ Voltage Controlled Oscillator
+ ![Phase Frequency Detector](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/VCO_PreLayout.PNG)
+ 
+ Frequency Divider
+ ![Phase Frequency Detector](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/FD_PreLayout.PNG)
+ 
+ Phase Lock Loop
+ ![Phase Frequency Detector](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/PLL_PreLayout.PNG)
  
 # Acknowledgements
 
