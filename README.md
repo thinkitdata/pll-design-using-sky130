@@ -28,6 +28,8 @@ The **_Charge Pump_** converts the digital measure of phase/frequeny difference 
 The **_Low Pass Filter_** is a combination of capacitance, inductance, and/or resistance, intended to produce high attenuation above a specified frequency and little to no attenuation below that frequency.  The frequency at which the transition occurs is called the cutoff frequency.  At the cutoff frequency, the attenuation is 3 decibels (dB) with respect to the minimum attenuation.  Below the cutoff frequency, the attenuation is less than 3 dB.  Above the cutoff, the attenuation is more than 3 dB.  [2]
 ![Low Pass Filter](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/LPF.PNG)
 
+The **_Voltage Controlled Oscillator (VCO)_** is an oscillator circuit that's frequency of oscillation is controlled by the input voltage.
+![Voltage Crontolled Oscillator](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/VCO.PNG)
 
 # Open Source Tools Used and Setup
 
