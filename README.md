@@ -16,6 +16,8 @@ This repository will show how to take a basic PLL circuit through all Integrated
 <b>Basic components of a PLL</b>
 ![PLL](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/PLL.PNG)
 
+A phase lock loop (PLL) is a control circuit that generates an output signal with the goal of mimicing the phase of the input signal.  This is commonly used in RF receivers.
+
 Why is a Phase-Locked Loop Clock Multiplier IC needed?
 To get a precise clock signal without frequency or phase noise.
 
