@@ -63,7 +63,7 @@ Now magic launches via Cygwin in Xwindows as expected.
 
 # Simulations
  
-![PreLayout Simulation Commands](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/PreLayout_Sim_Cmds.png)
+![PreLayout Simulation Commands](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/PreLayout_Sim_Cmds.PNG)
  
 # Acknowledgements
 
