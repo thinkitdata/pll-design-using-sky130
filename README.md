@@ -19,7 +19,7 @@ This repository will show how to take a basic PLL circuit through all Integrated
 
 A **_phased-lock loop (PLL)_** is a circuit used to lock an oscillator in phase with an input signal.  A PLL can act as a demodulator to demodulate a carrier frequency, or it can be used to track a carrier or synchronizing signal whose frequency varies with respect to time.  [1]
 
-The **_Phase Frequency Detector_** helps to compare the reference frequency signal(RefCLK) with Output frequency signal(FBCLK) to find out the differnce in the signal.  If the signal is leading then it is termed output up. When the signal is lagging it is termed output down..
+The **_Phase Frequency Detector_** helps to compare the reference frequency signal(RefCLK) with Output frequency signal(FBCLK) to find out the differnce in the signal.  If the signal is leading then we say that it is output up. When the signal is lagging we say that it is output down..
 ![PFD](https://github.com/thinkitdata/pll-design-using-sky130/blob/main/images/PFD.PNG)
 
 # Open Source Tools Used and Setup
